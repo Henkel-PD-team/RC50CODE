@@ -51,7 +51,7 @@ int main(void)
 	//Sys_RT_Status.Lower_Empty_Counter=10; 
 	
 	BSP_Init(); 
-	id[2] = *(uint32_t *)0x1FFF7A10 ;
+	//id[2] = *(uint32_t *)0x1FFF7A10 ;
 	id[1] = *(uint32_t *)0x1FFF7A14 ;
 	id[0] = *(uint32_t *)0x1FFF7A18 ;
 
